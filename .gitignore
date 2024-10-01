@@ -1,3 +1,13 @@
+# scripts
+chatbot.py
+conversation.py
+new.py
+rasa_socket.py
+
+# Other files
+templates/trial.html
+src/
+
 # Logs
 logs
 *.log
@@ -6,6 +16,7 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
+*.bat
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
