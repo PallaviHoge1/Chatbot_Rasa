@@ -84,11 +84,3 @@ To set up the project, follow these steps:
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 ```
-
-### Instructions for Saving the README
-
-1. Create a new file named `README.md` in your project directory.
-2. Copy the above content into the `README.md` file.
-3. Save the file.
-
-Feel free to modify any sections if you want to include additional details or specific instructions! If you need further assistance, just let me know.

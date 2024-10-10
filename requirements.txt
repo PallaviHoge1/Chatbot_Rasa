@@ -1,0 +1,12 @@
+Flask
+Flask-SocketIO
+python-socketio
+rasa
+flask
+transformers
+tensorflow
+torch
+torchvision
+torchaudio
+notebook==6.1.5
+websocket-client

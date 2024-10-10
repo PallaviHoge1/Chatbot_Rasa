@@ -23,6 +23,7 @@ def connect():
 def handle_bot_message(data):
     global last_bot_response
     last_bot_response = data['text']  # Store the last bot response
+    print(data['text'] )
 
 # Event handler when disconnected from the Rasa server
 @sio.event
@@ -40,8 +41,9 @@ try:
 except socketio.exceptions.ConnectionError as e:
     print(f"Connection failed: {e}")
 
-# Function to send a message to the Rasa bot
+# Function to send a message to the Rasa bot 
 def send_message(message):
+    print(message)
     sio.emit('user_uttered', {
         'message': message,
         'sender': 'user'
@@ -64,4 +66,4 @@ def send_message_endpoint():
 
 # Start the Flask app
 if __name__ == '__main__':
-    socketio_app.run(app, debug=True)
+    socketio_app.run(app)
